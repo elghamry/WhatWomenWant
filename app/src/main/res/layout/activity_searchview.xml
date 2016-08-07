@@ -1,0 +1,20 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!---> toolbar width must be wrap_content to disable auto scrolling causing by recyvlerview<-->
+    <include layout="@layout/toolbar"/>
+
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/searchview_fragment">
+
+
+
+
+   </FrameLayout>
+</LinearLayout>
+
+
